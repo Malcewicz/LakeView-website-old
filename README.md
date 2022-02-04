@@ -1,6 +1,6 @@
 # malcewicz.github.io
 
-Welocme to my first real website!
+Welcome to my first real website!
 
 Yes, if you look closely it is made from a template, but come on, i still did a fair share!
 It's not like nobody ever used a template for anything, right?
