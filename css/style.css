@@ -1,5 +1,5 @@
 @charset "UTF-8";
-@import "http://fonts.googleapis.com/css?family=Raleway:400,700";
+@import url('https://fonts.googleapis.com/css2?family=Manrope&family=Raleway:wght@400;700&display=swap');
 
 /* Basic */
 body {
