@@ -133,7 +133,7 @@ section.special, article.special, header.special {
 	text-align: center;
 }
 header p {
-	color: #aaa;
+	color: #666;
 	position: relative;
 	margin: 0 0 1.5em 0;
 	text-transform: uppercase;
