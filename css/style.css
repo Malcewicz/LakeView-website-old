@@ -170,9 +170,11 @@ header.major p {
 header.major.lokalizacja {
 	margin: 0;
 }
-header.major a {
-	color: #f32853;
+.nr-tel {
+	color: #f44066;
 	text-shadow: 2px 2px 2px #f21040 0.1;
+	text-decoration: none;
+	font-family: 'font awesome', sans-serif;
 }
 .oneP {
 	text-transform: none;
