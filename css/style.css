@@ -846,7 +846,7 @@ body.landing #skel-layers-wrapper {
 #banner {
 	padding: 16em 0 12em 0;
 	background-attachment: fixed;
-	background-image: url("../images/background.png");
+	background-image: url("../images/background.webp");
 	background-position: center;
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -889,7 +889,7 @@ body.is-touch #banner {
 }
 .wrapper.style3 {
 	background-attachment: fixed;
-	background-image: url("../images/background_zaz.png");
+	background-image: url("../images/background_zaz.webp");
 	background-position: center;
 	background-size: cover;
 	background-repeat: no-repeat;

@@ -51,13 +51,13 @@
 					side: 'right',
 					width: 250
 				},
-				navButton: {
+				titleBar: {
 					breakpoints: 'medium',
-					height: '4em',
-					html: '<span class="toggle" data-action="toggleLayer" data-args="navPanel"></span>',
+					height: 44,
+					html: '</span><span class="title" data-action="copyHTML" data-args="logo"></span><span class="toggle" data-action="toggleLayer" data-args="navPanel">',
 					position: 'top-right',
 					side: 'top',
-					width: '6em'
+					width: '100%'
 				}
 			}
 		}

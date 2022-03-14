@@ -79,40 +79,70 @@
 
 /* Layers */
 
-	#navButton .toggle {
-		text-decoration: none;
-		height: 100%;
-		left: 0;
-		position: absolute;
-		top: 0;
-		width: 100%;
-	}
-
-		#navButton .toggle:before {
-			content: "";
-			-moz-osx-font-smoothing: grayscale;
-			-webkit-font-smoothing: antialiased;
-			font-family: FontAwesome;
-			font-style: normal;
-			font-weight: normal;
-			text-transform: none !important;
+	#titleBar {
+			background: #222;
+			height: 44px;
+			line-height: 44px;
 		}
-
-		#navButton .toggle:before {
-			background: rgba(144, 144, 144, 0.65);
-			border-radius: 4px;
-			color: #fff;
-			display: block;
-			font-size: 16px;
-			height: 2.25em;
-			left: 0.5em;
-			line-height: 2.25em;
-			position: absolute;
-			text-align: center;
-			top: 0.5em;
-			width: 3.5em;
-		}
-
+	
+			#titleBar .title {
+				display: block;
+				position: relative;
+				font-weight: 700;
+				font-size: 1.1em;
+				text-align: center;
+				line-height: 44px;
+				letter-spacing: 1px;
+				text-transform: uppercase;
+				color: #fff;
+				z-index: 1;
+			}
+	
+			#titleBar .title span {
+				display: none;
+			}
+	
+			#titleBar .toggle {
+				height: 50px;
+				right: 0;
+				position: absolute;
+				top: 0;
+				width: 50px;
+				z-index: 2;
+			}
+	
+				#titleBar .toggle:before {
+					content: "\f0c9";
+					-moz-osx-font-smoothing: grayscale;
+					-webkit-font-smoothing: antialiased;
+					font-family: FontAwesome;
+					font-style: normal;
+					font-weight: normal;
+					text-transform: none !important;
+				}
+	
+				#titleBar .toggle:before {
+					background: none;
+					color: white;
+					display: block;
+					height: 44px;
+					line-height: 44px;
+					text-align: center;
+					width: 44px;
+					font-size: 1.2em;
+				}
+	
+				#titleBar .toggle:after {
+					content: '';
+					display: block;
+					height: 13px;
+					left: 10px;
+					opacity: 0.75;
+					position: absolute;
+					top: 15px;
+					width: 20px;
+				}
+	
 	#navPanel {
 		background: #222;
 		color: #fff;
