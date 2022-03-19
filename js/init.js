@@ -75,6 +75,11 @@
 				$body.removeClass('is-loading');
 			});
 
+		// Loading Animation
+			document.addEventListener("load", function() {
+				$(".load-wrapper").fadeOut("fast");
+			});
+
 		// Touch mode.
 			if (skel.vars.isMobile)
 				$body.addClass('is-touch');
