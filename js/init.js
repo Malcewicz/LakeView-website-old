@@ -1,4 +1,3 @@
-
 (function($) {
 
 	skel.init({
@@ -73,10 +72,6 @@
 
 			$window.on('load', function() {
 				$body.removeClass('is-loading');
-			});
-
-		// Loading Animation
-			document.addEventListener("load", function() {
 				$(".load-wrapper").fadeOut("fast");
 			});
 
