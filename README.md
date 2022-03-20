@@ -2,9 +2,9 @@
 
 Welcome to my first real website!
 
-Yes, if you look closely it is made from a template, but come on, i still did a fair share!
-It's not like nobody ever used a template for anything, right?
+Created using HTML, CSS and JavaScript / jQuery.
+Also using skel for responsive design.
 
 Anyway, the website is in polish, so if you were going to check it out and you don't know the language, i guess you could still just look around?
 
-Thanks for coming here, although i have no idea how you found a small dev like me :)
+Thanks for coming here, i have no idea how you found a small dev like me :)
