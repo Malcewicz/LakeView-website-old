@@ -77,7 +77,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   </section>
 
 <!-- Aparatamenty i Domek -->
-  <section id="apartamenty" class="wrapper style2 special">
+  <section id="apartamenty" class="wrapper style2 special lessbottom">
     <div class="container">
       <header class="major">
         <h2>Apartamenty i domek</h2>
@@ -85,18 +85,18 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       <div class="row 150%">
         <div class="6u 12u$(xsmall)">
           <div class="image fit captioned"> 
-            <!---- Gallery ---->
+            <!-- Gallery 1 -->
             <img class="mySlides" src="images/kuchnia1.webp" alt="Zdjęcie kuchni" />
-            <img class="mySlides" src="images/kuchnia2.webp" alt="Drugie zdjęcie kuchni" />
-            <img class="mySlides" src="images/salon1.webp" alt="Zdjęcie salonu" />
-            <img class="mySlides" src="images/salon2.webp" alt="Drugie zdjęcie salonu" />
-            <img class="mySlides" src="images/salon3.webp" alt="Trzecie zdjęcie salonu" />
-            <img class="mySlides" src="images/sypialnia1.webp" alt="Zdjęcie sypialni" />
-            <img class="mySlides" src="images/sypialnia2.webp" alt="Drugie zdjęcie sypialni" />
-            <img class="mySlides" src="images/sypialnia3.webp" alt="Trzecie zdjęcie sypialni" />
-            <img class="mySlides" src="images/sypialnia4.webp" alt="Czwarte zdjęcie sypialni" />
-            <img class="mySlides" src="images/łazienka1.webp" alt="Zdjęcie łazienki" />
-            <img class="mySlides" src="images/apart_zewnatrz.webp" alt="Zdjęcie domku apartamentów z zewnątrz" />
+            <img class="mySlides lazy" data-src="images/kuchnia2.webp" alt="Drugie zdjęcie kuchni" />
+            <img class="mySlides lazy" data-src="images/salon1.webp" alt="Zdjęcie salonu" />
+            <img class="mySlides lazy" data-src="images/salon2.webp" alt="Drugie zdjęcie salonu" />
+            <img class="mySlides lazy" data-src="images/salon3.webp" alt="Trzecie zdjęcie salonu" />
+            <img class="mySlides lazy" data-src="images/sypialnia1.webp" alt="Zdjęcie sypialni" />
+            <img class="mySlides lazy" data-src="images/sypialnia2.webp" alt="Drugie zdjęcie sypialni" />
+            <img class="mySlides lazy" data-src="images/sypialnia3.webp" alt="Trzecie zdjęcie sypialni" />
+            <img class="mySlides lazy" data-src="images/sypialnia4.webp" alt="Czwarte zdjęcie sypialni" />
+            <img class="mySlides lazy" data-src="images/łazienka1.webp" alt="Zdjęcie łazienki" />
+            <img class="mySlides lazy" data-src="images/apart_zewnatrz.webp" alt="Zdjęcie domku apartamentów z zewnątrz" />
             <button class="button button-left" onclick="plusDivs(-1)">&#10094;</button>
             <button class="button button-right" onclick="plusDivs(1)">&#10095;</button>
             <h3>Apartamenty</h3>
@@ -106,11 +106,12 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         </div>
         <div class="6u 12u$(xsmall)">
           <div class="image fit captioned">
+            <!-- Gallery 2 -->
             <img class="mySlides2" src="images/domek_zewnatrz_2.webp" alt="Zdjęcie domku z zewnątrz" />
-            <img class="mySlides2" src="images/domek_zewnatrz.webp" alt="Drugie zdjęcie domku z zewnątrz" />
-            <img class="mySlides2" src="images/sypialnia_domek1.webp" alt="Zdjęcie sypialni w domku" />
-            <img class="mySlides2" src="images/sypialnia_domek2.webp" alt="Drugie zdjęcie sypialni w domku" />
-            <img class="mySlides2" src="images/salon_domek1.webp" alt="Zdjęcie salonu w domku" />
+            <img class="mySlides2 lazy" data-src="images/domek_zewnatrz.webp" alt="Drugie zdjęcie domku z zewnątrz" />
+            <img class="mySlides2 lazy" data-src="images/sypialnia_domek1.webp" alt="Zdjęcie sypialni w domku" />
+            <img class="mySlides2 lazy" data-src="images/sypialnia_domek2.webp" alt="Drugie zdjęcie sypialni w domku" />
+            <img class="mySlides2 lazy" data-src="images/salon_domek1.webp" alt="Zdjęcie salonu w domku" />
             <button class="button button-left" onclick="plusDivs2(-1)">&#10094;</button>
             <button class="button button-right" onclick="plusDivs2(1)">&#10095;</button>
             <h3>Domek</h3>
@@ -122,6 +123,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     </div>
     <!---- Gallery JavaScript ---->
     <script defer>
+      // Gallery 1
       var slideIndex = 1;
       showDivs(slideIndex);
       function plusDivs(n) {
@@ -138,6 +140,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         x[slideIndex-1].style.display = "block";  
       }
 
+      // Gallery 2
       var slideIndex2 = 1;
       showDivs2(slideIndex2);
       function plusDivs2(n2) {
@@ -152,6 +155,52 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           x2[i2].style.display = "none";  
         }
         x2[slideIndex2-1].style.display = "block";  
+      }
+    </script>
+  </section>
+
+<!-- Atrakcje -->
+  <section id="apartamenty-atrakcje" class="wrapper style2 special lesstop">
+    <div class="container">
+      <div class="100%">
+        <div class="6u 12u$(xsmall) center">
+          <div class="image fit captioned">
+            <!-- Gallery 3 -->
+            <img class="mySlides3" src="images/plac_zabaw.webp" alt="Zdjęcie placu zabaw" />
+            <img class="mySlides3 lazy" data-src="images/motorowka.webp" alt="Zdjęcie motorówki na brzegu" />
+            <img class="mySlides3 lazy" data-src="images/bania.webp" alt="Zdjęcie bani" />
+            <img class="mySlides3 lazy" data-src="images/piwnica.webp" alt="Zdjęcie piwnicy z barem" />
+            <img class="mySlides3 lazy" data-src="images/piwnica_2.webp" alt="Drugie zdjęcie piwnicy z barem" />
+            <img class="mySlides3 lazy" data-src="images/piwnica_3.webp" alt="Trzecie zdjęcie piwnicy z barem" />
+            <img class="mySlides3 lazy" data-src="images/brzeg.webp" alt="Zdjęcie brzegu" />
+            <img class="mySlides3 lazy" data-src="images/katamaran.webp" alt="Zdjęcie katamaranu" />
+            <img class="mySlides3 lazy" data-src="images/katamaran_2.webp" alt="Drugie zdjęcie katamaranu" />
+            <button class="button button-left" onclick="plusDivs3(-1)">&#10094;</button>
+            <button class="button button-right" onclick="plusDivs3(1)">&#10095;</button>
+            <h3 class="smaller">Nasze atrakcje</h3>
+          </div>
+          <p>Gościom oferujemy odpłatnie relaks w dużej i komfortowej ruskiej bani z cudownym widokiem na jezioro, 
+            rejs 12-osobowym katamaranem bez patentu, łodzią motorową bez patentu oraz motorówką kabinową osobom posiadającym patent. </p>
+        </div>
+      </div>
+    </div>
+    <!---- Gallery 3 JavaScript ---->
+    <script defer>
+      // Gallery 3
+      var slideIndex3 = 1;
+      showDivs3(slideIndex3);
+      function plusDivs3(n3) {
+        showDivs3(slideIndex3+= n3);
+      }
+      function showDivs3(n3) {
+        var i3;
+        var x3 = document.getElementsByClassName("mySlides3");
+        if (n3 > x3.length) {slideIndex3 = 1}
+        if (n3 < 1) {slideIndex3 = x3.length}
+        for (i3 = 0; i3 < x3.length; i3++) {
+          x3[i3].style.display = "none";  
+        }
+        x3[slideIndex3-1].style.display = "block";  
       }
     </script>
   </section>
@@ -206,7 +255,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   </div>
 </section>
 
-<!-- Atrakcje -->
+<!-- Pobliskie atrakcje -->
   <section id="atrakcje" class="wrapper style2">
     <div class="container">
       <header class="major special">

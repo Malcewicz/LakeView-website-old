@@ -64,6 +64,14 @@
 		text-shadow: 2px 2px 3px #000000;
 	}
 
+	.lesstop {
+		padding: 1em 0 1em 0 !important;
+	}
+
+	.lessbottom {
+		padding: 3em 0 0.5em 0 !important;
+	}
+
 /* Footer */
 
 	#footer {

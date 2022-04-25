@@ -65,6 +65,14 @@
 		text-shadow: 2px 2px 3px #000000;
 	}
 
+	.lesstop {
+		padding: 1em 0 2em 0 !important;
+	}
+
+	.lessbottom {
+		padding: 4em 0 1em 0 !important;
+	}
+
 /* One */
 
 	#one {

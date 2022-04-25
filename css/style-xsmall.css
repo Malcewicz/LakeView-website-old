@@ -13,6 +13,13 @@
 		font-size: 1.75em;
 	}
 
+	@media (max-width: 400px) {
+		.smaller {
+			font-size: 1.1rem;
+			padding: 1.1em !important;
+		}
+	}
+
 /* List */
 
 	ul.actions {
@@ -99,6 +106,14 @@
 		color: #ffffff;
 		text-shadow: 2px 2px 3px #000000;
 	}
+
+	.lesstop {
+		padding: 1em 0 0.1em 0 !important;
+	}
+	.lessbottom {
+		padding: 2em 0 0 0 !important;
+	}
+	
 
 /* Footer */
 
