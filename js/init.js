@@ -72,7 +72,7 @@
 
 			$window.on('load', function() {
 				$body.removeClass('is-loading');
-				$(".load-wrapper").fadeOut("fast");
+				// $(".load-wrapper").fadeOut("fast");
 			});
 
 		// Touch mode.
