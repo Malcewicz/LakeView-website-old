@@ -3,6 +3,9 @@
 @import url('//fonts.googleapis.com/css2?family=Manrope&family=Raleway:wght@400;700&display=swap');
 
 /* Basic */
+html {
+	scroll-behavior: smooth;
+}
 body {
 	background: #fff;
 }
